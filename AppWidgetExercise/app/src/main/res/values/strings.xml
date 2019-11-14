@@ -1,0 +1,25 @@
+<resources>
+  <string name="app_name">Vedenjuonti muistutin</string>
+  <string name="coffee_amount_limit">Aseta päivittäinen veden tarve (dl)</string>
+  <string name="save_configuration">Tallenna asetukset</string>
+  <string name="espresso">Vesilasi (2dl)</string>
+  <string name="espresso_short">Lasi(2dl)</string>
+  <string name="long_coffee">Long coffee (7g)</string>
+  <string name="long_coffee_short">Long</string>
+  <string name="grams_of_coffee">Desiä juotu</string>
+  <string name="grams_of_coffee_value_placeholder">0</string>
+  <string name="grams">Desiä juotu tänään</string>
+  <string name="add_more_coffee">Juo lisää vettä</string>
+  <string name="today">Tänään</string>
+  <string name="intake_saved">Juotu vesimäärä lisätty laskuriin</string>
+  <string name="undo_string">Peru</string>
+
+  <array name="coffee_texts">
+    <item>Muista juoda!</item>
+    <item>Vesi on terveellistä!</item>
+    <item>Oletko juonut tarpeeksi?</item>
+    <item>Vesi vanhin voitehista!</item>
+  </array>
+  <string name="appwidget_text">EXAMPLE</string>
+  <string name="add_widget">Add widget</string>
+</resources>

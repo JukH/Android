@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Sum Calculator</string>
+    <string name="num1">Anna 1. numero</string>
+    <string name="num2">Anna 2. numero</string>
+    <string name="plus">=</string>
+    <string name="tulos">Summa näkyy tässä</string>
+    <string name="kuva">kuva</string>
+</resources>

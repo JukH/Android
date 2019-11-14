@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Build UI With LayoutEditor 2</string>
+    <string name="firstname">Firstname</string>
+    <string name="lastname">Lastname</string>
+    <string name="jobtitle">Jobtitle</string>
+    <string name="employee_information">Employee information text here..</string>
+    <string name="_1">1</string>
+    <string name="_2">2</string>
+    <string name="_3">3</string>
+    <string name="_4">4</string>
+    <string name="_5">5</string>
+    <string name="basic_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus interdum purus id aliquet. Quisque pulvinar nisl eu condimentum ultrices. Quisque ex felis, aliquam at nibh nec, vulputate ornare velit. Nullam sed mattis quam. Morbi fringilla maximus augue ut bibendum. Nunc erat nisi, aliquam id magna in, dictum vehicula tortor. Morbi bibendum nibh massa, quis dignissim nisi semper a. Maecenas molestie ante at velit feugiat convallis. Etiam nec finibus nulla, sed molestie dolor.</string>
+    <string name="img">kuva</string>
+</resources>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText"
+            android:hint="@string/num1"
+            tools:autofillHints="@string/num1" android:importantForAutofill="no"
+            android:layout_marginTop="46dp"
+            app:layout_constraintTop_toTopOf="parent" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="259dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="259dp"/>
+    <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/editText2"
+            android:hint="@string/num2" tools:autofillHints="@string/num2"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="259dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="259dp"/>
+    <Button
+            android:text="@string/plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="laske"
+            android:id="@+id/button" android:contentDescription="@string/plus"
+            android:layout_marginTop="8dp"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="321dp" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="322dp"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textView"
+            android:contentDescription="@string/tulos"
+            android:text="@string/tulos"
+            android:layout_marginTop="10dp"
+            app:layout_constraintTop_toBottomOf="@+id/button" app:layout_constraintEnd_toEndOf="parent"
+            android:layout_marginEnd="303dp" app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginStart="302dp"/>
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" app:srcCompat="@android:drawable/ic_input_add"
+            android:id="@+id/imageView2"
+            android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/editText"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginStart="349dp"
+            app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="350dp"/>
+</android.support.constraint.ConstraintLayout>

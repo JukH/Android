@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Employees App</string>
+    <string name="nameTextView"></string>
+    <string name="recyclerView">recyclerView</string>
+    <string name="textView2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris quis lorem tincidunt, aliquet odio quis, facilisis massa. Maecenas est ipsum, varius nec libero sit amet, suscipit cursus velit. Phasellus semper quis arcu at tincidunt. Aenean nec ex posuere, varius orci eu, lacinia arcu. Vestibulum accumsan vulputate purus in tempor. Etiam sit amet tincidunt nulla. Aenean et scelerisque risus. Sed bibendum enim tellus, sit amet mollis ligula commodo vitae. In cursus purus vitae nunc euismod blandit. Nunc dignissim pellentesque sapien ac pharetra. Duis dignissim felis nec venenatis ornare.</string>
+    <string name="image">Employee image</string>
+</resources>

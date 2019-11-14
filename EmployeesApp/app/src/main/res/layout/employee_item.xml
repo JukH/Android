@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            app:layout_constraintEnd_toStartOf="@+id/linearLayout"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="@+id/linearLayout">
+        <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" tools:srcCompat="@tools:sample/avatars" android:id="@+id/imageView"
+                android:layout_weight="1"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="269dp"
+            android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/linearLayout">
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/nameTextView2"
+        />
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/titleTextView2"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/emailTextView2"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/phoneTextView2"/>
+        <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" android:id="@+id/departmentTextView2"/>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

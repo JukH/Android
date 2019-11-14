@@ -1,0 +1,3 @@
+This project was accindentally updated with my git push for buildinUiWith...2, as android studio wanted to add some file in my previous project. This note is written so that I can push it and update my repository.
+
+-Jukka
